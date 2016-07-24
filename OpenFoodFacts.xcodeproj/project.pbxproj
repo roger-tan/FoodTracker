@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BAFF0D266BE2A73A4C6FC3D /* Pods_OpenFoodFactsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A82116BE1A5D4A7A5AA825 /* Pods_OpenFoodFactsTests.framework */; };
+		0E5CE55BA051F14D76F26B0E /* Pods_OpenFoodFactsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB1CD47278133C560ED8113 /* Pods_OpenFoodFactsUITests.framework */; };
+		947461214DB7B3B60F2C1582 /* Pods_OpenFoodFacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34597BC4A979984D2AB33086 /* Pods_OpenFoodFacts.framework */; };
+		95673F131D32A2A70050AF18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F121D32A2A70050AF18 /* AppDelegate.swift */; };
+		95673F151D32A2A70050AF18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F141D32A2A70050AF18 /* ViewController.swift */; };
+		95673F181D32A2A70050AF18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95673F161D32A2A70050AF18 /* Main.storyboard */; };
+		95673F1B1D32A2A70050AF18 /* OpenFoodFacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95673F191D32A2A70050AF18 /* OpenFoodFacts.xcdatamodeld */; };
+		95673F1D1D32A2A70050AF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95673F1C1D32A2A70050AF18 /* Assets.xcassets */; };
+		95673F201D32A2A70050AF18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95673F1E1D32A2A70050AF18 /* LaunchScreen.storyboard */; };
+		95673F2B1D32A2A70050AF18 /* OpenFoodFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F2A1D32A2A70050AF18 /* OpenFoodFactsTests.swift */; };
+		95673F361D32A2A70050AF18 /* OpenFoodFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F351D32A2A70050AF18 /* OpenFoodFactsUITests.swift */; };
+		95673FA91D32B3FB0050AF18 /* AdditivesDebugTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F511D32B3FB0050AF18 /* AdditivesDebugTags.swift */; };
+		95673FAA1D32B3FB0050AF18 /* AdditivesOldTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F521D32B3FB0050AF18 /* AdditivesOldTags.swift */; };
+		95673FAB1D32B3FB0050AF18 /* AdditivesPrevTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F531D32B3FB0050AF18 /* AdditivesPrevTags.swift */; };
+		95673FAC1D32B3FB0050AF18 /* AdditivesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F541D32B3FB0050AF18 /* AdditivesTags.swift */; };
+		95673FAD1D32B3FB0050AF18 /* AllergensHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F551D32B3FB0050AF18 /* AllergensHierarchy.swift */; };
+		95673FAE1D32B3FB0050AF18 /* AllergensTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F561D32B3FB0050AF18 /* AllergensTags.swift */; };
+		95673FAF1D32B3FB0050AF18 /* BrandsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F571D32B3FB0050AF18 /* BrandsTags.swift */; };
+		95673FB01D32B3FB0050AF18 /* CategoriesDebugTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F581D32B3FB0050AF18 /* CategoriesDebugTags.swift */; };
+		95673FB11D32B3FB0050AF18 /* CategoriesHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F591D32B3FB0050AF18 /* CategoriesHierarchy.swift */; };
+		95673FB21D32B3FB0050AF18 /* CategoriesPrevHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F5A1D32B3FB0050AF18 /* CategoriesPrevHierarchy.swift */; };
+		95673FB31D32B3FB0050AF18 /* CategoriesPrevTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F5B1D32B3FB0050AF18 /* CategoriesPrevTags.swift */; };
+		95673FB41D32B3FB0050AF18 /* CategoriesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F5C1D32B3FB0050AF18 /* CategoriesTags.swift */; };
+		95673FB51D32B3FB0050AF18 /* Checkers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F5D1D32B3FB0050AF18 /* Checkers.swift */; };
+		95673FB61D32B3FB0050AF18 /* CheckersTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F5E1D32B3FB0050AF18 /* CheckersTags.swift */; };
+		95673FB71D32B3FB0050AF18 /* CitiesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F5F1D32B3FB0050AF18 /* CitiesTags.swift */; };
+		95673FB81D32B3FB0050AF18 /* CodesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F601D32B3FB0050AF18 /* CodesTags.swift */; };
+		95673FB91D32B3FB0050AF18 /* Correctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F611D32B3FB0050AF18 /* Correctors.swift */; };
+		95673FBA1D32B3FB0050AF18 /* CorrectorsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F621D32B3FB0050AF18 /* CorrectorsTags.swift */; };
+		95673FBB1D32B3FB0050AF18 /* CountriesHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F631D32B3FB0050AF18 /* CountriesHierarchy.swift */; };
+		95673FBC1D32B3FB0050AF18 /* CountriesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F641D32B3FB0050AF18 /* CountriesTags.swift */; };
+		95673FBD1D32B3FB0050AF18 /* DebugParamSortedLangs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F651D32B3FB0050AF18 /* DebugParamSortedLangs.swift */; };
+		95673FBE1D32B3FB0050AF18 /* DebugTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F661D32B3FB0050AF18 /* DebugTags.swift */; };
+		95673FBF1D32B3FB0050AF18 /* Editors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F671D32B3FB0050AF18 /* Editors.swift */; };
+		95673FC01D32B3FB0050AF18 /* EditorsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F681D32B3FB0050AF18 /* EditorsTags.swift */; };
+		95673FC11D32B3FB0050AF18 /* EmbCodesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F691D32B3FB0050AF18 /* EmbCodesTags.swift */; };
+		95673FC21D32B3FB0050AF18 /* EntryDatesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F6A1D32B3FB0050AF18 /* EntryDatesTags.swift */; };
+		95673FC31D32B3FB0050AF18 /* Front.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F6B1D32B3FB0050AF18 /* Front.swift */; };
+		95673FC41D32B3FB0050AF18 /* FrontFr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F6C1D32B3FB0050AF18 /* FrontFr.swift */; };
+		95673FC51D32B3FB0050AF18 /* Full.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F6D1D32B3FB0050AF18 /* Full.swift */; };
+		95673FC61D32B3FB0050AF18 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F6E1D32B3FB0050AF18 /* Images.swift */; };
+		95673FC71D32B3FB0050AF18 /* Informers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F6F1D32B3FB0050AF18 /* Informers.swift */; };
+		95673FC81D32B3FB0050AF18 /* InformersTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F701D32B3FB0050AF18 /* InformersTags.swift */; };
+		95673FC91D32B3FB0050AF18 /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F711D32B3FB0050AF18 /* Ingredients.swift */; };
+		95673FCA1D32B3FB0050AF18 /* IngredientsDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F721D32B3FB0050AF18 /* IngredientsDebug.swift */; };
+		95673FCB1D32B3FB0050AF18 /* IngredientsFr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F731D32B3FB0050AF18 /* IngredientsFr.swift */; };
+		95673FCC1D32B3FB0050AF18 /* IngredientsFromPalmOilTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F741D32B3FB0050AF18 /* IngredientsFromPalmOilTags.swift */; };
+		95673FCD1D32B3FB0050AF18 /* IngredientsIdsDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F751D32B3FB0050AF18 /* IngredientsIdsDebug.swift */; };
+		95673FCE1D32B3FB0050AF18 /* IngredientsNTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F761D32B3FB0050AF18 /* IngredientsNTags.swift */; };
+		95673FCF1D32B3FB0050AF18 /* IngredientsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F771D32B3FB0050AF18 /* IngredientsTags.swift */; };
+		95673FD01D32B3FB0050AF18 /* IngredientsThatMayBeFromPalmOilTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F781D32B3FB0050AF18 /* IngredientsThatMayBeFromPalmOilTags.swift */; };
+		95673FD11D32B3FB0050AF18 /* Keywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F791D32B3FB0050AF18 /* Keywords.swift */; };
+		95673FD21D32B3FB0050AF18 /* LabelsDebugTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F7A1D32B3FB0050AF18 /* LabelsDebugTags.swift */; };
+		95673FD31D32B3FB0050AF18 /* LabelsHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F7B1D32B3FB0050AF18 /* LabelsHierarchy.swift */; };
+		95673FD41D32B3FB0050AF18 /* LabelsPrevHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F7C1D32B3FB0050AF18 /* LabelsPrevHierarchy.swift */; };
+		95673FD51D32B3FB0050AF18 /* LabelsPrevTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F7D1D32B3FB0050AF18 /* LabelsPrevTags.swift */; };
+		95673FD61D32B3FB0050AF18 /* LabelsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F7E1D32B3FB0050AF18 /* LabelsTags.swift */; };
+		95673FD71D32B3FB0050AF18 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F7F1D32B3FB0050AF18 /* Languages.swift */; };
+		95673FD81D32B3FB0050AF18 /* LanguagesCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F801D32B3FB0050AF18 /* LanguagesCodes.swift */; };
+		95673FD91D32B3FB0050AF18 /* LanguagesHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F811D32B3FB0050AF18 /* LanguagesHierarchy.swift */; };
+		95673FDA1D32B3FB0050AF18 /* LanguagesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F821D32B3FB0050AF18 /* LanguagesTags.swift */; };
+		95673FDB1D32B3FB0050AF18 /* LastEditDatesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F831D32B3FB0050AF18 /* LastEditDatesTags.swift */; };
+		95673FDC1D32B3FB0050AF18 /* LastImageDatesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F841D32B3FB0050AF18 /* LastImageDatesTags.swift */; };
+		95673FDD1D32B3FB0050AF18 /* ManufacturingPlacesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F851D32B3FB0050AF18 /* ManufacturingPlacesTags.swift */; };
+		95673FDE1D32B3FB0050AF18 /* NutrientLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F861D32B3FB0050AF18 /* NutrientLevels.swift */; };
+		95673FDF1D32B3FB0050AF18 /* NutrientLevelsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F871D32B3FB0050AF18 /* NutrientLevelsTags.swift */; };
+		95673FE01D32B3FB0050AF18 /* Nutriments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F881D32B3FB0050AF18 /* Nutriments.swift */; };
+		95673FE11D32B3FB0050AF18 /* Nutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F891D32B3FB0050AF18 /* Nutrition.swift */; };
+		95673FE21D32B3FB0050AF18 /* NutritionFr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F8A1D32B3FB0050AF18 /* NutritionFr.swift */; };
+		95673FE31D32B3FB0050AF18 /* NutritionGradesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F8B1D32B3FB0050AF18 /* NutritionGradesTags.swift */; };
+		95673FE41D32B3FB0050AF18 /* OriginsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F8C1D32B3FB0050AF18 /* OriginsTags.swift */; };
+		95673FE51D32B3FB0050AF18 /* PackagingTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F8D1D32B3FB0050AF18 /* PackagingTags.swift */; };
+		95673FE61D32B3FB0050AF18 /* Photographers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F8E1D32B3FB0050AF18 /* Photographers.swift */; };
+		95673FE71D32B3FB0050AF18 /* PhotographersTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F8F1D32B3FB0050AF18 /* PhotographersTags.swift */; };
+		95673FE81D32B3FB0050AF18 /* PnnsGroups1Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F901D32B3FB0050AF18 /* PnnsGroups1Tags.swift */; };
+		95673FE91D32B3FB0050AF18 /* PnnsGroups2Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F911D32B3FB0050AF18 /* PnnsGroups2Tags.swift */; };
+		95673FEA1D32B3FB0050AF18 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F921D32B3FB0050AF18 /* Products.swift */; };
+		95673FEB1D32B3FB0050AF18 /* PurchasePlacesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F931D32B3FB0050AF18 /* PurchasePlacesTags.swift */; };
+		95673FEC1D32B3FB0050AF18 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F941D32B3FB0050AF18 /* Search.swift */; };
+		95673FED1D32B3FB0050AF18 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F951D32B3FB0050AF18 /* Sizes.swift */; };
+		95673FEE1D32B3FB0050AF18 /* StatesHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F961D32B3FB0050AF18 /* StatesHierarchy.swift */; };
+		95673FEF1D32B3FB0050AF18 /* StatesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F971D32B3FB0050AF18 /* StatesTags.swift */; };
+		95673FF01D32B3FB0050AF18 /* StoresTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F981D32B3FB0050AF18 /* StoresTags.swift */; };
+		95673FF11D32B3FB0050AF18 /* TracesHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F991D32B3FB0050AF18 /* TracesHierarchy.swift */; };
+		95673FF21D32B3FB0050AF18 /* TracesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F9A1D32B3FB0050AF18 /* TracesTags.swift */; };
+		95673FF31D32B3FB0050AF18 /* UnknownNutrientsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F9B1D32B3FB0050AF18 /* UnknownNutrientsTags.swift */; };
+		95D93D461D358BDE0002309A /* OpenFoodFactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D93D451D358BDE0002309A /* OpenFoodFactsService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95673F271D32A2A70050AF18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95673F071D32A2A70050AF18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95673F0E1D32A2A70050AF18;
+			remoteInfo = OpenFoodFacts;
+		};
+		95673F321D32A2A70050AF18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95673F071D32A2A70050AF18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95673F0E1D32A2A70050AF18;
+			remoteInfo = OpenFoodFacts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20A82116BE1A5D4A7A5AA825 /* Pods_OpenFoodFactsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenFoodFactsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34597BC4A979984D2AB33086 /* Pods_OpenFoodFacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenFoodFacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F97A96131BF8264EE3BB58A /* Pods-OpenFoodFactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFactsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFactsTests/Pods-OpenFoodFactsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FB1CD47278133C560ED8113 /* Pods_OpenFoodFactsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenFoodFactsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7285AA0A163378EAE9FBB07F /* Pods-OpenFoodFacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFacts/Pods-OpenFoodFacts.release.xcconfig"; sourceTree = "<group>"; };
+		95673F0F1D32A2A70050AF18 /* OpenFoodFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFoodFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95673F121D32A2A70050AF18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95673F141D32A2A70050AF18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95673F171D32A2A70050AF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95673F1A1D32A2A70050AF18 /* OpenFoodFacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenFoodFacts.xcdatamodel; sourceTree = "<group>"; };
+		95673F1C1D32A2A70050AF18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95673F1F1D32A2A70050AF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95673F211D32A2A70050AF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95673F261D32A2A70050AF18 /* OpenFoodFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenFoodFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95673F2A1D32A2A70050AF18 /* OpenFoodFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFoodFactsTests.swift; sourceTree = "<group>"; };
+		95673F2C1D32A2A70050AF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95673F311D32A2A70050AF18 /* OpenFoodFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenFoodFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95673F351D32A2A70050AF18 /* OpenFoodFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenFoodFactsUITests.swift; sourceTree = "<group>"; };
+		95673F371D32A2A70050AF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95673F511D32B3FB0050AF18 /* AdditivesDebugTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdditivesDebugTags.swift; path = Models/AdditivesDebugTags.swift; sourceTree = "<group>"; };
+		95673F521D32B3FB0050AF18 /* AdditivesOldTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdditivesOldTags.swift; path = Models/AdditivesOldTags.swift; sourceTree = "<group>"; };
+		95673F531D32B3FB0050AF18 /* AdditivesPrevTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdditivesPrevTags.swift; path = Models/AdditivesPrevTags.swift; sourceTree = "<group>"; };
+		95673F541D32B3FB0050AF18 /* AdditivesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdditivesTags.swift; path = Models/AdditivesTags.swift; sourceTree = "<group>"; };
+		95673F551D32B3FB0050AF18 /* AllergensHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllergensHierarchy.swift; path = Models/AllergensHierarchy.swift; sourceTree = "<group>"; };
+		95673F561D32B3FB0050AF18 /* AllergensTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AllergensTags.swift; path = Models/AllergensTags.swift; sourceTree = "<group>"; };
+		95673F571D32B3FB0050AF18 /* BrandsTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrandsTags.swift; path = Models/BrandsTags.swift; sourceTree = "<group>"; };
+		95673F581D32B3FB0050AF18 /* CategoriesDebugTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesDebugTags.swift; path = Models/CategoriesDebugTags.swift; sourceTree = "<group>"; };
+		95673F591D32B3FB0050AF18 /* CategoriesHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesHierarchy.swift; path = Models/CategoriesHierarchy.swift; sourceTree = "<group>"; };
+		95673F5A1D32B3FB0050AF18 /* CategoriesPrevHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesPrevHierarchy.swift; path = Models/CategoriesPrevHierarchy.swift; sourceTree = "<group>"; };
+		95673F5B1D32B3FB0050AF18 /* CategoriesPrevTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesPrevTags.swift; path = Models/CategoriesPrevTags.swift; sourceTree = "<group>"; };
+		95673F5C1D32B3FB0050AF18 /* CategoriesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoriesTags.swift; path = Models/CategoriesTags.swift; sourceTree = "<group>"; };
+		95673F5D1D32B3FB0050AF18 /* Checkers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Checkers.swift; path = Models/Checkers.swift; sourceTree = "<group>"; };
+		95673F5E1D32B3FB0050AF18 /* CheckersTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckersTags.swift; path = Models/CheckersTags.swift; sourceTree = "<group>"; };
+		95673F5F1D32B3FB0050AF18 /* CitiesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CitiesTags.swift; path = Models/CitiesTags.swift; sourceTree = "<group>"; };
+		95673F601D32B3FB0050AF18 /* CodesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodesTags.swift; path = Models/CodesTags.swift; sourceTree = "<group>"; };
+		95673F611D32B3FB0050AF18 /* Correctors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Correctors.swift; path = Models/Correctors.swift; sourceTree = "<group>"; };
+		95673F621D32B3FB0050AF18 /* CorrectorsTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CorrectorsTags.swift; path = Models/CorrectorsTags.swift; sourceTree = "<group>"; };
+		95673F631D32B3FB0050AF18 /* CountriesHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountriesHierarchy.swift; path = Models/CountriesHierarchy.swift; sourceTree = "<group>"; };
+		95673F641D32B3FB0050AF18 /* CountriesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountriesTags.swift; path = Models/CountriesTags.swift; sourceTree = "<group>"; };
+		95673F651D32B3FB0050AF18 /* DebugParamSortedLangs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DebugParamSortedLangs.swift; path = Models/DebugParamSortedLangs.swift; sourceTree = "<group>"; };
+		95673F661D32B3FB0050AF18 /* DebugTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DebugTags.swift; path = Models/DebugTags.swift; sourceTree = "<group>"; };
+		95673F671D32B3FB0050AF18 /* Editors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Editors.swift; path = Models/Editors.swift; sourceTree = "<group>"; };
+		95673F681D32B3FB0050AF18 /* EditorsTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditorsTags.swift; path = Models/EditorsTags.swift; sourceTree = "<group>"; };
+		95673F691D32B3FB0050AF18 /* EmbCodesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmbCodesTags.swift; path = Models/EmbCodesTags.swift; sourceTree = "<group>"; };
+		95673F6A1D32B3FB0050AF18 /* EntryDatesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntryDatesTags.swift; path = Models/EntryDatesTags.swift; sourceTree = "<group>"; };
+		95673F6B1D32B3FB0050AF18 /* Front.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Front.swift; path = Models/Front.swift; sourceTree = "<group>"; };
+		95673F6C1D32B3FB0050AF18 /* FrontFr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FrontFr.swift; path = Models/FrontFr.swift; sourceTree = "<group>"; };
+		95673F6D1D32B3FB0050AF18 /* Full.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Full.swift; path = Models/Full.swift; sourceTree = "<group>"; };
+		95673F6E1D32B3FB0050AF18 /* Images.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Images.swift; path = Models/Images.swift; sourceTree = "<group>"; };
+		95673F6F1D32B3FB0050AF18 /* Informers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Informers.swift; path = Models/Informers.swift; sourceTree = "<group>"; };
+		95673F701D32B3FB0050AF18 /* InformersTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InformersTags.swift; path = Models/InformersTags.swift; sourceTree = "<group>"; };
+		95673F711D32B3FB0050AF18 /* Ingredients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ingredients.swift; path = Models/Ingredients.swift; sourceTree = "<group>"; };
+		95673F721D32B3FB0050AF18 /* IngredientsDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientsDebug.swift; path = Models/IngredientsDebug.swift; sourceTree = "<group>"; };
+		95673F731D32B3FB0050AF18 /* IngredientsFr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientsFr.swift; path = Models/IngredientsFr.swift; sourceTree = "<group>"; };
+		95673F741D32B3FB0050AF18 /* IngredientsFromPalmOilTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientsFromPalmOilTags.swift; path = Models/IngredientsFromPalmOilTags.swift; sourceTree = "<group>"; };
+		95673F751D32B3FB0050AF18 /* IngredientsIdsDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientsIdsDebug.swift; path = Models/IngredientsIdsDebug.swift; sourceTree = "<group>"; };
+		95673F761D32B3FB0050AF18 /* IngredientsNTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientsNTags.swift; path = Models/IngredientsNTags.swift; sourceTree = "<group>"; };
+		95673F771D32B3FB0050AF18 /* IngredientsTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientsTags.swift; path = Models/IngredientsTags.swift; sourceTree = "<group>"; };
+		95673F781D32B3FB0050AF18 /* IngredientsThatMayBeFromPalmOilTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IngredientsThatMayBeFromPalmOilTags.swift; path = Models/IngredientsThatMayBeFromPalmOilTags.swift; sourceTree = "<group>"; };
+		95673F791D32B3FB0050AF18 /* Keywords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Keywords.swift; path = Models/Keywords.swift; sourceTree = "<group>"; };
+		95673F7A1D32B3FB0050AF18 /* LabelsDebugTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelsDebugTags.swift; path = Models/LabelsDebugTags.swift; sourceTree = "<group>"; };
+		95673F7B1D32B3FB0050AF18 /* LabelsHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelsHierarchy.swift; path = Models/LabelsHierarchy.swift; sourceTree = "<group>"; };
+		95673F7C1D32B3FB0050AF18 /* LabelsPrevHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelsPrevHierarchy.swift; path = Models/LabelsPrevHierarchy.swift; sourceTree = "<group>"; };
+		95673F7D1D32B3FB0050AF18 /* LabelsPrevTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelsPrevTags.swift; path = Models/LabelsPrevTags.swift; sourceTree = "<group>"; };
+		95673F7E1D32B3FB0050AF18 /* LabelsTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelsTags.swift; path = Models/LabelsTags.swift; sourceTree = "<group>"; };
+		95673F7F1D32B3FB0050AF18 /* Languages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Languages.swift; path = Models/Languages.swift; sourceTree = "<group>"; };
+		95673F801D32B3FB0050AF18 /* LanguagesCodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguagesCodes.swift; path = Models/LanguagesCodes.swift; sourceTree = "<group>"; };
+		95673F811D32B3FB0050AF18 /* LanguagesHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguagesHierarchy.swift; path = Models/LanguagesHierarchy.swift; sourceTree = "<group>"; };
+		95673F821D32B3FB0050AF18 /* LanguagesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguagesTags.swift; path = Models/LanguagesTags.swift; sourceTree = "<group>"; };
+		95673F831D32B3FB0050AF18 /* LastEditDatesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LastEditDatesTags.swift; path = Models/LastEditDatesTags.swift; sourceTree = "<group>"; };
+		95673F841D32B3FB0050AF18 /* LastImageDatesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LastImageDatesTags.swift; path = Models/LastImageDatesTags.swift; sourceTree = "<group>"; };
+		95673F851D32B3FB0050AF18 /* ManufacturingPlacesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManufacturingPlacesTags.swift; path = Models/ManufacturingPlacesTags.swift; sourceTree = "<group>"; };
+		95673F861D32B3FB0050AF18 /* NutrientLevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NutrientLevels.swift; path = Models/NutrientLevels.swift; sourceTree = "<group>"; };
+		95673F871D32B3FB0050AF18 /* NutrientLevelsTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NutrientLevelsTags.swift; path = Models/NutrientLevelsTags.swift; sourceTree = "<group>"; };
+		95673F881D32B3FB0050AF18 /* Nutriments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nutriments.swift; path = Models/Nutriments.swift; sourceTree = "<group>"; };
+		95673F891D32B3FB0050AF18 /* Nutrition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nutrition.swift; path = Models/Nutrition.swift; sourceTree = "<group>"; };
+		95673F8A1D32B3FB0050AF18 /* NutritionFr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NutritionFr.swift; path = Models/NutritionFr.swift; sourceTree = "<group>"; };
+		95673F8B1D32B3FB0050AF18 /* NutritionGradesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NutritionGradesTags.swift; path = Models/NutritionGradesTags.swift; sourceTree = "<group>"; };
+		95673F8C1D32B3FB0050AF18 /* OriginsTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OriginsTags.swift; path = Models/OriginsTags.swift; sourceTree = "<group>"; };
+		95673F8D1D32B3FB0050AF18 /* PackagingTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PackagingTags.swift; path = Models/PackagingTags.swift; sourceTree = "<group>"; };
+		95673F8E1D32B3FB0050AF18 /* Photographers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photographers.swift; path = Models/Photographers.swift; sourceTree = "<group>"; };
+		95673F8F1D32B3FB0050AF18 /* PhotographersTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotographersTags.swift; path = Models/PhotographersTags.swift; sourceTree = "<group>"; };
+		95673F901D32B3FB0050AF18 /* PnnsGroups1Tags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PnnsGroups1Tags.swift; path = Models/PnnsGroups1Tags.swift; sourceTree = "<group>"; };
+		95673F911D32B3FB0050AF18 /* PnnsGroups2Tags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PnnsGroups2Tags.swift; path = Models/PnnsGroups2Tags.swift; sourceTree = "<group>"; };
+		95673F921D32B3FB0050AF18 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Products.swift; path = Models/Products.swift; sourceTree = "<group>"; };
+		95673F931D32B3FB0050AF18 /* PurchasePlacesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PurchasePlacesTags.swift; path = Models/PurchasePlacesTags.swift; sourceTree = "<group>"; };
+		95673F941D32B3FB0050AF18 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Search.swift; path = Models/Search.swift; sourceTree = "<group>"; };
+		95673F951D32B3FB0050AF18 /* Sizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sizes.swift; path = Models/Sizes.swift; sourceTree = "<group>"; };
+		95673F961D32B3FB0050AF18 /* StatesHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatesHierarchy.swift; path = Models/StatesHierarchy.swift; sourceTree = "<group>"; };
+		95673F971D32B3FB0050AF18 /* StatesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StatesTags.swift; path = Models/StatesTags.swift; sourceTree = "<group>"; };
+		95673F981D32B3FB0050AF18 /* StoresTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StoresTags.swift; path = Models/StoresTags.swift; sourceTree = "<group>"; };
+		95673F991D32B3FB0050AF18 /* TracesHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TracesHierarchy.swift; path = Models/TracesHierarchy.swift; sourceTree = "<group>"; };
+		95673F9A1D32B3FB0050AF18 /* TracesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TracesTags.swift; path = Models/TracesTags.swift; sourceTree = "<group>"; };
+		95673F9B1D32B3FB0050AF18 /* UnknownNutrientsTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnknownNutrientsTags.swift; path = Models/UnknownNutrientsTags.swift; sourceTree = "<group>"; };
+		95D93D451D358BDE0002309A /* OpenFoodFactsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenFoodFactsService.swift; path = Services/OpenFoodFactsService.swift; sourceTree = "<group>"; };
+		D70A58148277B3099B248085 /* Pods-OpenFoodFactsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFactsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFactsUITests/Pods-OpenFoodFactsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE88B5FCFE3ADC5F33B30F4D /* Pods-OpenFoodFactsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFactsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFactsUITests/Pods-OpenFoodFactsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DEC5D6EC169D68DB391AD701 /* Pods-OpenFoodFacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFacts/Pods-OpenFoodFacts.debug.xcconfig"; sourceTree = "<group>"; };
+		F770385B077C8B09CB919D63 /* Pods-OpenFoodFactsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFactsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFactsTests/Pods-OpenFoodFactsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95673F0C1D32A2A70050AF18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947461214DB7B3B60F2C1582 /* Pods_OpenFoodFacts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95673F231D32A2A70050AF18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BAFF0D266BE2A73A4C6FC3D /* Pods_OpenFoodFactsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95673F2E1D32A2A70050AF18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5CE55BA051F14D76F26B0E /* Pods_OpenFoodFactsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		452AEFDD8B23273291C1F73F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEC5D6EC169D68DB391AD701 /* Pods-OpenFoodFacts.debug.xcconfig */,
+				7285AA0A163378EAE9FBB07F /* Pods-OpenFoodFacts.release.xcconfig */,
+				5F97A96131BF8264EE3BB58A /* Pods-OpenFoodFactsTests.debug.xcconfig */,
+				F770385B077C8B09CB919D63 /* Pods-OpenFoodFactsTests.release.xcconfig */,
+				D70A58148277B3099B248085 /* Pods-OpenFoodFactsUITests.debug.xcconfig */,
+				DE88B5FCFE3ADC5F33B30F4D /* Pods-OpenFoodFactsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9488DE1E17C28D4D76A47A9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34597BC4A979984D2AB33086 /* Pods_OpenFoodFacts.framework */,
+				20A82116BE1A5D4A7A5AA825 /* Pods_OpenFoodFactsTests.framework */,
+				6FB1CD47278133C560ED8113 /* Pods_OpenFoodFactsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95673F061D32A2A70050AF18 = {
+			isa = PBXGroup;
+			children = (
+				95673F111D32A2A70050AF18 /* OpenFoodFacts */,
+				95673F291D32A2A70050AF18 /* OpenFoodFactsTests */,
+				95673F341D32A2A70050AF18 /* OpenFoodFactsUITests */,
+				95673F101D32A2A70050AF18 /* Products */,
+				452AEFDD8B23273291C1F73F /* Pods */,
+				9488DE1E17C28D4D76A47A9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95673F101D32A2A70050AF18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95673F0F1D32A2A70050AF18 /* OpenFoodFacts.app */,
+				95673F261D32A2A70050AF18 /* OpenFoodFactsTests.xctest */,
+				95673F311D32A2A70050AF18 /* OpenFoodFactsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95673F111D32A2A70050AF18 /* OpenFoodFacts */ = {
+			isa = PBXGroup;
+			children = (
+				95673F431D32B3A40050AF18 /* Models */,
+				95673F121D32A2A70050AF18 /* AppDelegate.swift */,
+				95673F141D32A2A70050AF18 /* ViewController.swift */,
+				95673F161D32A2A70050AF18 /* Main.storyboard */,
+				95673F1C1D32A2A70050AF18 /* Assets.xcassets */,
+				95673F1E1D32A2A70050AF18 /* LaunchScreen.storyboard */,
+				95673F211D32A2A70050AF18 /* Info.plist */,
+				95673F191D32A2A70050AF18 /* OpenFoodFacts.xcdatamodeld */,
+				95D93D451D358BDE0002309A /* OpenFoodFactsService.swift */,
+			);
+			path = OpenFoodFacts;
+			sourceTree = "<group>";
+		};
+		95673F291D32A2A70050AF18 /* OpenFoodFactsTests */ = {
+			isa = PBXGroup;
+			children = (
+				95673F2A1D32A2A70050AF18 /* OpenFoodFactsTests.swift */,
+				95673F2C1D32A2A70050AF18 /* Info.plist */,
+			);
+			path = OpenFoodFactsTests;
+			sourceTree = "<group>";
+		};
+		95673F341D32A2A70050AF18 /* OpenFoodFactsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95673F351D32A2A70050AF18 /* OpenFoodFactsUITests.swift */,
+				95673F371D32A2A70050AF18 /* Info.plist */,
+			);
+			path = OpenFoodFactsUITests;
+			sourceTree = "<group>";
+		};
+		95673F431D32B3A40050AF18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				95673F511D32B3FB0050AF18 /* AdditivesDebugTags.swift */,
+				95673F521D32B3FB0050AF18 /* AdditivesOldTags.swift */,
+				95673F531D32B3FB0050AF18 /* AdditivesPrevTags.swift */,
+				95673F541D32B3FB0050AF18 /* AdditivesTags.swift */,
+				95673F551D32B3FB0050AF18 /* AllergensHierarchy.swift */,
+				95673F561D32B3FB0050AF18 /* AllergensTags.swift */,
+				95673F571D32B3FB0050AF18 /* BrandsTags.swift */,
+				95673F581D32B3FB0050AF18 /* CategoriesDebugTags.swift */,
+				95673F591D32B3FB0050AF18 /* CategoriesHierarchy.swift */,
+				95673F5A1D32B3FB0050AF18 /* CategoriesPrevHierarchy.swift */,
+				95673F5B1D32B3FB0050AF18 /* CategoriesPrevTags.swift */,
+				95673F5C1D32B3FB0050AF18 /* CategoriesTags.swift */,
+				95673F5D1D32B3FB0050AF18 /* Checkers.swift */,
+				95673F5E1D32B3FB0050AF18 /* CheckersTags.swift */,
+				95673F5F1D32B3FB0050AF18 /* CitiesTags.swift */,
+				95673F601D32B3FB0050AF18 /* CodesTags.swift */,
+				95673F611D32B3FB0050AF18 /* Correctors.swift */,
+				95673F621D32B3FB0050AF18 /* CorrectorsTags.swift */,
+				95673F631D32B3FB0050AF18 /* CountriesHierarchy.swift */,
+				95673F641D32B3FB0050AF18 /* CountriesTags.swift */,
+				95673F651D32B3FB0050AF18 /* DebugParamSortedLangs.swift */,
+				95673F661D32B3FB0050AF18 /* DebugTags.swift */,
+				95673F671D32B3FB0050AF18 /* Editors.swift */,
+				95673F681D32B3FB0050AF18 /* EditorsTags.swift */,
+				95673F691D32B3FB0050AF18 /* EmbCodesTags.swift */,
+				95673F6A1D32B3FB0050AF18 /* EntryDatesTags.swift */,
+				95673F6B1D32B3FB0050AF18 /* Front.swift */,
+				95673F6C1D32B3FB0050AF18 /* FrontFr.swift */,
+				95673F6D1D32B3FB0050AF18 /* Full.swift */,
+				95673F6E1D32B3FB0050AF18 /* Images.swift */,
+				95673F6F1D32B3FB0050AF18 /* Informers.swift */,
+				95673F701D32B3FB0050AF18 /* InformersTags.swift */,
+				95673F711D32B3FB0050AF18 /* Ingredients.swift */,
+				95673F721D32B3FB0050AF18 /* IngredientsDebug.swift */,
+				95673F731D32B3FB0050AF18 /* IngredientsFr.swift */,
+				95673F741D32B3FB0050AF18 /* IngredientsFromPalmOilTags.swift */,
+				95673F751D32B3FB0050AF18 /* IngredientsIdsDebug.swift */,
+				95673F761D32B3FB0050AF18 /* IngredientsNTags.swift */,
+				95673F771D32B3FB0050AF18 /* IngredientsTags.swift */,
+				95673F781D32B3FB0050AF18 /* IngredientsThatMayBeFromPalmOilTags.swift */,
+				95673F791D32B3FB0050AF18 /* Keywords.swift */,
+				95673F7A1D32B3FB0050AF18 /* LabelsDebugTags.swift */,
+				95673F7B1D32B3FB0050AF18 /* LabelsHierarchy.swift */,
+				95673F7C1D32B3FB0050AF18 /* LabelsPrevHierarchy.swift */,
+				95673F7D1D32B3FB0050AF18 /* LabelsPrevTags.swift */,
+				95673F7E1D32B3FB0050AF18 /* LabelsTags.swift */,
+				95673F7F1D32B3FB0050AF18 /* Languages.swift */,
+				95673F801D32B3FB0050AF18 /* LanguagesCodes.swift */,
+				95673F811D32B3FB0050AF18 /* LanguagesHierarchy.swift */,
+				95673F821D32B3FB0050AF18 /* LanguagesTags.swift */,
+				95673F831D32B3FB0050AF18 /* LastEditDatesTags.swift */,
+				95673F841D32B3FB0050AF18 /* LastImageDatesTags.swift */,
+				95673F851D32B3FB0050AF18 /* ManufacturingPlacesTags.swift */,
+				95673F861D32B3FB0050AF18 /* NutrientLevels.swift */,
+				95673F871D32B3FB0050AF18 /* NutrientLevelsTags.swift */,
+				95673F881D32B3FB0050AF18 /* Nutriments.swift */,
+				95673F891D32B3FB0050AF18 /* Nutrition.swift */,
+				95673F8A1D32B3FB0050AF18 /* NutritionFr.swift */,
+				95673F8B1D32B3FB0050AF18 /* NutritionGradesTags.swift */,
+				95673F8C1D32B3FB0050AF18 /* OriginsTags.swift */,
+				95673F8D1D32B3FB0050AF18 /* PackagingTags.swift */,
+				95673F8E1D32B3FB0050AF18 /* Photographers.swift */,
+				95673F8F1D32B3FB0050AF18 /* PhotographersTags.swift */,
+				95673F901D32B3FB0050AF18 /* PnnsGroups1Tags.swift */,
+				95673F911D32B3FB0050AF18 /* PnnsGroups2Tags.swift */,
+				95673F921D32B3FB0050AF18 /* Products.swift */,
+				95673F931D32B3FB0050AF18 /* PurchasePlacesTags.swift */,
+				95673F941D32B3FB0050AF18 /* Search.swift */,
+				95673F951D32B3FB0050AF18 /* Sizes.swift */,
+				95673F961D32B3FB0050AF18 /* StatesHierarchy.swift */,
+				95673F971D32B3FB0050AF18 /* StatesTags.swift */,
+				95673F981D32B3FB0050AF18 /* StoresTags.swift */,
+				95673F991D32B3FB0050AF18 /* TracesHierarchy.swift */,
+				95673F9A1D32B3FB0050AF18 /* TracesTags.swift */,
+				95673F9B1D32B3FB0050AF18 /* UnknownNutrientsTags.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95673F0E1D32A2A70050AF18 /* OpenFoodFacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95673F3A1D32A2A70050AF18 /* Build configuration list for PBXNativeTarget "OpenFoodFacts" */;
+			buildPhases = (
+				439C84C228AB0208238E2D63 /* [CP] Check Pods Manifest.lock */,
+				95673F0B1D32A2A70050AF18 /* Sources */,
+				95673F0C1D32A2A70050AF18 /* Frameworks */,
+				95673F0D1D32A2A70050AF18 /* Resources */,
+				12F34C96980610AA5B8636CE /* [CP] Embed Pods Frameworks */,
+				BC60B25F22E9A80CA28AF41A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenFoodFacts;
+			productName = OpenFoodFacts;
+			productReference = 95673F0F1D32A2A70050AF18 /* OpenFoodFacts.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95673F251D32A2A70050AF18 /* OpenFoodFactsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95673F3D1D32A2A70050AF18 /* Build configuration list for PBXNativeTarget "OpenFoodFactsTests" */;
+			buildPhases = (
+				B4E2C7C7D5B2C2CFF7A07C8F /* [CP] Check Pods Manifest.lock */,
+				95673F221D32A2A70050AF18 /* Sources */,
+				95673F231D32A2A70050AF18 /* Frameworks */,
+				95673F241D32A2A70050AF18 /* Resources */,
+				5C6FA0B79F79E6626BE48124 /* [CP] Embed Pods Frameworks */,
+				C7A427FD13A4C05F30DECCC5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95673F281D32A2A70050AF18 /* PBXTargetDependency */,
+			);
+			name = OpenFoodFactsTests;
+			productName = OpenFoodFactsTests;
+			productReference = 95673F261D32A2A70050AF18 /* OpenFoodFactsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95673F301D32A2A70050AF18 /* OpenFoodFactsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95673F401D32A2A70050AF18 /* Build configuration list for PBXNativeTarget "OpenFoodFactsUITests" */;
+			buildPhases = (
+				E8AE4FDC72AE06758D30B265 /* [CP] Check Pods Manifest.lock */,
+				95673F2D1D32A2A70050AF18 /* Sources */,
+				95673F2E1D32A2A70050AF18 /* Frameworks */,
+				95673F2F1D32A2A70050AF18 /* Resources */,
+				140DFA81284040DCCF87D3BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95673F331D32A2A70050AF18 /* PBXTargetDependency */,
+			);
+			name = OpenFoodFactsUITests;
+			productName = OpenFoodFactsUITests;
+			productReference = 95673F311D32A2A70050AF18 /* OpenFoodFactsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95673F071D32A2A70050AF18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Roger TAN";
+				TargetAttributes = {
+					95673F0E1D32A2A70050AF18 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					95673F251D32A2A70050AF18 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95673F0E1D32A2A70050AF18;
+					};
+					95673F301D32A2A70050AF18 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 95673F0E1D32A2A70050AF18;
+					};
+				};
+			};
+			buildConfigurationList = 95673F0A1D32A2A70050AF18 /* Build configuration list for PBXProject "OpenFoodFacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95673F061D32A2A70050AF18;
+			productRefGroup = 95673F101D32A2A70050AF18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95673F0E1D32A2A70050AF18 /* OpenFoodFacts */,
+				95673F251D32A2A70050AF18 /* OpenFoodFactsTests */,
+				95673F301D32A2A70050AF18 /* OpenFoodFactsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95673F0D1D32A2A70050AF18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95673F201D32A2A70050AF18 /* LaunchScreen.storyboard in Resources */,
+				95673F1D1D32A2A70050AF18 /* Assets.xcassets in Resources */,
+				95673F181D32A2A70050AF18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95673F241D32A2A70050AF18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95673F2F1D32A2A70050AF18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12F34C96980610AA5B8636CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenFoodFacts/Pods-OpenFoodFacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		140DFA81284040DCCF87D3BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenFoodFactsUITests/Pods-OpenFoodFactsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		439C84C228AB0208238E2D63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6FA0B79F79E6626BE48124 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenFoodFactsTests/Pods-OpenFoodFactsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E2C7C7D5B2C2CFF7A07C8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC60B25F22E9A80CA28AF41A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenFoodFacts/Pods-OpenFoodFacts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A427FD13A4C05F30DECCC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OpenFoodFactsTests/Pods-OpenFoodFactsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8AE4FDC72AE06758D30B265 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95673F0B1D32A2A70050AF18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95673FCC1D32B3FB0050AF18 /* IngredientsFromPalmOilTags.swift in Sources */,
+				95673FB21D32B3FB0050AF18 /* CategoriesPrevHierarchy.swift in Sources */,
+				95673F1B1D32A2A70050AF18 /* OpenFoodFacts.xcdatamodeld in Sources */,
+				95673FCB1D32B3FB0050AF18 /* IngredientsFr.swift in Sources */,
+				95673FC01D32B3FB0050AF18 /* EditorsTags.swift in Sources */,
+				95673FC91D32B3FB0050AF18 /* Ingredients.swift in Sources */,
+				95673FDA1D32B3FB0050AF18 /* LanguagesTags.swift in Sources */,
+				95673FE11D32B3FB0050AF18 /* Nutrition.swift in Sources */,
+				95673FC21D32B3FB0050AF18 /* EntryDatesTags.swift in Sources */,
+				95673FF11D32B3FB0050AF18 /* TracesHierarchy.swift in Sources */,
+				95673FAD1D32B3FB0050AF18 /* AllergensHierarchy.swift in Sources */,
+				95673FB81D32B3FB0050AF18 /* CodesTags.swift in Sources */,
+				95673FE81D32B3FB0050AF18 /* PnnsGroups1Tags.swift in Sources */,
+				95673FDC1D32B3FB0050AF18 /* LastImageDatesTags.swift in Sources */,
+				95673FCE1D32B3FB0050AF18 /* IngredientsNTags.swift in Sources */,
+				95673FC11D32B3FB0050AF18 /* EmbCodesTags.swift in Sources */,
+				95673FAC1D32B3FB0050AF18 /* AdditivesTags.swift in Sources */,
+				95673FD71D32B3FB0050AF18 /* Languages.swift in Sources */,
+				95673FD51D32B3FB0050AF18 /* LabelsPrevTags.swift in Sources */,
+				95673FB31D32B3FB0050AF18 /* CategoriesPrevTags.swift in Sources */,
+				95673FC61D32B3FB0050AF18 /* Images.swift in Sources */,
+				95673FF01D32B3FB0050AF18 /* StoresTags.swift in Sources */,
+				95673FBD1D32B3FB0050AF18 /* DebugParamSortedLangs.swift in Sources */,
+				95673FC41D32B3FB0050AF18 /* FrontFr.swift in Sources */,
+				95673FC71D32B3FB0050AF18 /* Informers.swift in Sources */,
+				95673FB91D32B3FB0050AF18 /* Correctors.swift in Sources */,
+				95673FAA1D32B3FB0050AF18 /* AdditivesOldTags.swift in Sources */,
+				95673FCA1D32B3FB0050AF18 /* IngredientsDebug.swift in Sources */,
+				95673FBF1D32B3FB0050AF18 /* Editors.swift in Sources */,
+				95673FB61D32B3FB0050AF18 /* CheckersTags.swift in Sources */,
+				95673FCD1D32B3FB0050AF18 /* IngredientsIdsDebug.swift in Sources */,
+				95673FB51D32B3FB0050AF18 /* Checkers.swift in Sources */,
+				95673FDF1D32B3FB0050AF18 /* NutrientLevelsTags.swift in Sources */,
+				95673FE41D32B3FB0050AF18 /* OriginsTags.swift in Sources */,
+				95673FE71D32B3FB0050AF18 /* PhotographersTags.swift in Sources */,
+				95673FBE1D32B3FB0050AF18 /* DebugTags.swift in Sources */,
+				95673FF31D32B3FB0050AF18 /* UnknownNutrientsTags.swift in Sources */,
+				95673FEB1D32B3FB0050AF18 /* PurchasePlacesTags.swift in Sources */,
+				95673FAF1D32B3FB0050AF18 /* BrandsTags.swift in Sources */,
+				95673FE31D32B3FB0050AF18 /* NutritionGradesTags.swift in Sources */,
+				95673FCF1D32B3FB0050AF18 /* IngredientsTags.swift in Sources */,
+				95673FD91D32B3FB0050AF18 /* LanguagesHierarchy.swift in Sources */,
+				95673FEA1D32B3FB0050AF18 /* Products.swift in Sources */,
+				95673FB11D32B3FB0050AF18 /* CategoriesHierarchy.swift in Sources */,
+				95673FE01D32B3FB0050AF18 /* Nutriments.swift in Sources */,
+				95D93D461D358BDE0002309A /* OpenFoodFactsService.swift in Sources */,
+				95673FE21D32B3FB0050AF18 /* NutritionFr.swift in Sources */,
+				95673FB71D32B3FB0050AF18 /* CitiesTags.swift in Sources */,
+				95673FE51D32B3FB0050AF18 /* PackagingTags.swift in Sources */,
+				95673FDD1D32B3FB0050AF18 /* ManufacturingPlacesTags.swift in Sources */,
+				95673FAE1D32B3FB0050AF18 /* AllergensTags.swift in Sources */,
+				95673FEE1D32B3FB0050AF18 /* StatesHierarchy.swift in Sources */,
+				95673FBA1D32B3FB0050AF18 /* CorrectorsTags.swift in Sources */,
+				95673FE61D32B3FB0050AF18 /* Photographers.swift in Sources */,
+				95673FC81D32B3FB0050AF18 /* InformersTags.swift in Sources */,
+				95673FD11D32B3FB0050AF18 /* Keywords.swift in Sources */,
+				95673FF21D32B3FB0050AF18 /* TracesTags.swift in Sources */,
+				95673FD21D32B3FB0050AF18 /* LabelsDebugTags.swift in Sources */,
+				95673FB01D32B3FB0050AF18 /* CategoriesDebugTags.swift in Sources */,
+				95673FB41D32B3FB0050AF18 /* CategoriesTags.swift in Sources */,
+				95673F151D32A2A70050AF18 /* ViewController.swift in Sources */,
+				95673FDE1D32B3FB0050AF18 /* NutrientLevels.swift in Sources */,
+				95673FD41D32B3FB0050AF18 /* LabelsPrevHierarchy.swift in Sources */,
+				95673FBB1D32B3FB0050AF18 /* CountriesHierarchy.swift in Sources */,
+				95673FEC1D32B3FB0050AF18 /* Search.swift in Sources */,
+				95673FEF1D32B3FB0050AF18 /* StatesTags.swift in Sources */,
+				95673FD81D32B3FB0050AF18 /* LanguagesCodes.swift in Sources */,
+				95673FDB1D32B3FB0050AF18 /* LastEditDatesTags.swift in Sources */,
+				95673FD61D32B3FB0050AF18 /* LabelsTags.swift in Sources */,
+				95673F131D32A2A70050AF18 /* AppDelegate.swift in Sources */,
+				95673FD01D32B3FB0050AF18 /* IngredientsThatMayBeFromPalmOilTags.swift in Sources */,
+				95673FC31D32B3FB0050AF18 /* Front.swift in Sources */,
+				95673FC51D32B3FB0050AF18 /* Full.swift in Sources */,
+				95673FD31D32B3FB0050AF18 /* LabelsHierarchy.swift in Sources */,
+				95673FBC1D32B3FB0050AF18 /* CountriesTags.swift in Sources */,
+				95673FED1D32B3FB0050AF18 /* Sizes.swift in Sources */,
+				95673FA91D32B3FB0050AF18 /* AdditivesDebugTags.swift in Sources */,
+				95673FAB1D32B3FB0050AF18 /* AdditivesPrevTags.swift in Sources */,
+				95673FE91D32B3FB0050AF18 /* PnnsGroups2Tags.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95673F221D32A2A70050AF18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95673F2B1D32A2A70050AF18 /* OpenFoodFactsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95673F2D1D32A2A70050AF18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95673F361D32A2A70050AF18 /* OpenFoodFactsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95673F281D32A2A70050AF18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95673F0E1D32A2A70050AF18 /* OpenFoodFacts */;
+			targetProxy = 95673F271D32A2A70050AF18 /* PBXContainerItemProxy */;
+		};
+		95673F331D32A2A70050AF18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95673F0E1D32A2A70050AF18 /* OpenFoodFacts */;
+			targetProxy = 95673F321D32A2A70050AF18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95673F161D32A2A70050AF18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95673F171D32A2A70050AF18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95673F1E1D32A2A70050AF18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95673F1F1D32A2A70050AF18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95673F381D32A2A70050AF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95673F391D32A2A70050AF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95673F3B1D32A2A70050AF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC5D6EC169D68DB391AD701 /* Pods-OpenFoodFacts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenFoodFacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.rogertan.OpenFoodFacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95673F3C1D32A2A70050AF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7285AA0A163378EAE9FBB07F /* Pods-OpenFoodFacts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenFoodFacts/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.rogertan.OpenFoodFacts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95673F3E1D32A2A70050AF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F97A96131BF8264EE3BB58A /* Pods-OpenFoodFactsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenFoodFactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.rogertan.OpenFoodFactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenFoodFacts.app/OpenFoodFacts";
+			};
+			name = Debug;
+		};
+		95673F3F1D32A2A70050AF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F770385B077C8B09CB919D63 /* Pods-OpenFoodFactsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OpenFoodFactsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.rogertan.OpenFoodFactsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenFoodFacts.app/OpenFoodFacts";
+			};
+			name = Release;
+		};
+		95673F411D32A2A70050AF18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D70A58148277B3099B248085 /* Pods-OpenFoodFactsUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = OpenFoodFactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.rogertan.OpenFoodFactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenFoodFacts;
+			};
+			name = Debug;
+		};
+		95673F421D32A2A70050AF18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE88B5FCFE3ADC5F33B30F4D /* Pods-OpenFoodFactsUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = OpenFoodFactsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.rogertan.OpenFoodFactsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OpenFoodFacts;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95673F0A1D32A2A70050AF18 /* Build configuration list for PBXProject "OpenFoodFacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95673F381D32A2A70050AF18 /* Debug */,
+				95673F391D32A2A70050AF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95673F3A1D32A2A70050AF18 /* Build configuration list for PBXNativeTarget "OpenFoodFacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95673F3B1D32A2A70050AF18 /* Debug */,
+				95673F3C1D32A2A70050AF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95673F3D1D32A2A70050AF18 /* Build configuration list for PBXNativeTarget "OpenFoodFactsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95673F3E1D32A2A70050AF18 /* Debug */,
+				95673F3F1D32A2A70050AF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95673F401D32A2A70050AF18 /* Build configuration list for PBXNativeTarget "OpenFoodFactsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95673F411D32A2A70050AF18 /* Debug */,
+				95673F421D32A2A70050AF18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		95673F191D32A2A70050AF18 /* OpenFoodFacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95673F1A1D32A2A70050AF18 /* OpenFoodFacts.xcdatamodel */,
+			);
+			currentVersion = 95673F1A1D32A2A70050AF18 /* OpenFoodFacts.xcdatamodel */;
+			path = OpenFoodFacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95673F071D32A2A70050AF18 /* Project object */;
+}
