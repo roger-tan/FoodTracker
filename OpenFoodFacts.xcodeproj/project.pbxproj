@@ -10,8 +10,11 @@
 		0BAFF0D266BE2A73A4C6FC3D /* Pods_OpenFoodFactsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A82116BE1A5D4A7A5AA825 /* Pods_OpenFoodFactsTests.framework */; };
 		0E5CE55BA051F14D76F26B0E /* Pods_OpenFoodFactsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB1CD47278133C560ED8113 /* Pods_OpenFoodFactsUITests.framework */; };
 		947461214DB7B3B60F2C1582 /* Pods_OpenFoodFacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34597BC4A979984D2AB33086 /* Pods_OpenFoodFacts.framework */; };
+		954895421D65BEE3007DCB36 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954895411D65BEE3007DCB36 /* SearchViewModel.swift */; };
+		954895441D65BFCE007DCB36 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954895431D65BFCE007DCB36 /* ProductViewModel.swift */; };
+		954895481D65C2A7007DCB36 /* ProductViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954895471D65C2A7007DCB36 /* ProductViewCell.swift */; };
+		9548954B1D65C4B4007DCB36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9548954A1D65C4B4007DCB36 /* ViewController.swift */; };
 		95673F131D32A2A70050AF18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F121D32A2A70050AF18 /* AppDelegate.swift */; };
-		95673F151D32A2A70050AF18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F141D32A2A70050AF18 /* ViewController.swift */; };
 		95673F181D32A2A70050AF18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95673F161D32A2A70050AF18 /* Main.storyboard */; };
 		95673F1B1D32A2A70050AF18 /* OpenFoodFacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95673F191D32A2A70050AF18 /* OpenFoodFacts.xcdatamodeld */; };
 		95673F1D1D32A2A70050AF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95673F1C1D32A2A70050AF18 /* Assets.xcassets */; };
@@ -93,7 +96,7 @@
 		95673FF11D32B3FB0050AF18 /* TracesHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F991D32B3FB0050AF18 /* TracesHierarchy.swift */; };
 		95673FF21D32B3FB0050AF18 /* TracesTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F9A1D32B3FB0050AF18 /* TracesTags.swift */; };
 		95673FF31D32B3FB0050AF18 /* UnknownNutrientsTags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95673F9B1D32B3FB0050AF18 /* UnknownNutrientsTags.swift */; };
-		95D93D461D358BDE0002309A /* OpenFoodFactsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D93D451D358BDE0002309A /* OpenFoodFactsService.swift */; };
+		95D93D461D358BDE0002309A /* OpenFoodFactsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D93D451D358BDE0002309A /* OpenFoodFactsProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,9 +122,12 @@
 		5F97A96131BF8264EE3BB58A /* Pods-OpenFoodFactsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFactsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFactsTests/Pods-OpenFoodFactsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FB1CD47278133C560ED8113 /* Pods_OpenFoodFactsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenFoodFactsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7285AA0A163378EAE9FBB07F /* Pods-OpenFoodFacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFacts/Pods-OpenFoodFacts.release.xcconfig"; sourceTree = "<group>"; };
+		954895411D65BEE3007DCB36 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = ViewModels/SearchViewModel.swift; sourceTree = "<group>"; };
+		954895431D65BFCE007DCB36 /* ProductViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductViewModel.swift; path = ViewModels/ProductViewModel.swift; sourceTree = "<group>"; };
+		954895471D65C2A7007DCB36 /* ProductViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductViewCell.swift; path = Views/Cells/ProductViewCell.swift; sourceTree = "<group>"; };
+		9548954A1D65C4B4007DCB36 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/ViewController.swift; sourceTree = "<group>"; };
 		95673F0F1D32A2A70050AF18 /* OpenFoodFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFoodFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95673F121D32A2A70050AF18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95673F141D32A2A70050AF18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95673F171D32A2A70050AF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95673F1A1D32A2A70050AF18 /* OpenFoodFacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenFoodFacts.xcdatamodel; sourceTree = "<group>"; };
 		95673F1C1D32A2A70050AF18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -208,7 +214,7 @@
 		95673F991D32B3FB0050AF18 /* TracesHierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TracesHierarchy.swift; path = Models/TracesHierarchy.swift; sourceTree = "<group>"; };
 		95673F9A1D32B3FB0050AF18 /* TracesTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TracesTags.swift; path = Models/TracesTags.swift; sourceTree = "<group>"; };
 		95673F9B1D32B3FB0050AF18 /* UnknownNutrientsTags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnknownNutrientsTags.swift; path = Models/UnknownNutrientsTags.swift; sourceTree = "<group>"; };
-		95D93D451D358BDE0002309A /* OpenFoodFactsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenFoodFactsService.swift; path = Services/OpenFoodFactsService.swift; sourceTree = "<group>"; };
+		95D93D451D358BDE0002309A /* OpenFoodFactsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenFoodFactsProvider.swift; path = Services/OpenFoodFactsProvider.swift; sourceTree = "<group>"; };
 		D70A58148277B3099B248085 /* Pods-OpenFoodFactsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFactsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFactsUITests/Pods-OpenFoodFactsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE88B5FCFE3ADC5F33B30F4D /* Pods-OpenFoodFactsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFactsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFactsUITests/Pods-OpenFoodFactsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DEC5D6EC169D68DB391AD701 /* Pods-OpenFoodFacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenFoodFacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OpenFoodFacts/Pods-OpenFoodFacts.debug.xcconfig"; sourceTree = "<group>"; };
@@ -266,6 +272,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9544AB981D65BD7C00F0D0CB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				954895411D65BEE3007DCB36 /* SearchViewModel.swift */,
+				954895431D65BFCE007DCB36 /* ProductViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		9544AB991D65BD8800F0D0CB /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				95D93D451D358BDE0002309A /* OpenFoodFactsProvider.swift */,
+			);
+			name = Providers;
+			sourceTree = "<group>";
+		};
+		9544AB9A1D65BD8C00F0D0CB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9548954A1D65C4B4007DCB36 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		954895451D65C1C3007DCB36 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				95673F121D32A2A70050AF18 /* AppDelegate.swift */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		954895461D65C286007DCB36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9548954C1D65C4E7007DCB36 /* Storyboards */,
+				954895491D65C2AB007DCB36 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		954895491D65C2AB007DCB36 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				954895471D65C2A7007DCB36 /* ProductViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		9548954C1D65C4E7007DCB36 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				95673F1E1D32A2A70050AF18 /* LaunchScreen.storyboard */,
+				95673F161D32A2A70050AF18 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 		95673F061D32A2A70050AF18 = {
 			isa = PBXGroup;
 			children = (
@@ -292,14 +357,14 @@
 			isa = PBXGroup;
 			children = (
 				95673F431D32B3A40050AF18 /* Models */,
-				95673F121D32A2A70050AF18 /* AppDelegate.swift */,
-				95673F141D32A2A70050AF18 /* ViewController.swift */,
-				95673F161D32A2A70050AF18 /* Main.storyboard */,
+				954895451D65C1C3007DCB36 /* Others */,
+				9544AB991D65BD8800F0D0CB /* Providers */,
+				9544AB9A1D65BD8C00F0D0CB /* ViewControllers */,
+				9544AB981D65BD7C00F0D0CB /* ViewModels */,
+				954895461D65C286007DCB36 /* Views */,
 				95673F1C1D32A2A70050AF18 /* Assets.xcassets */,
-				95673F1E1D32A2A70050AF18 /* LaunchScreen.storyboard */,
 				95673F211D32A2A70050AF18 /* Info.plist */,
 				95673F191D32A2A70050AF18 /* OpenFoodFacts.xcdatamodeld */,
-				95D93D451D358BDE0002309A /* OpenFoodFactsService.swift */,
 			);
 			path = OpenFoodFacts;
 			sourceTree = "<group>";
@@ -668,11 +733,13 @@
 			files = (
 				95673FCC1D32B3FB0050AF18 /* IngredientsFromPalmOilTags.swift in Sources */,
 				95673FB21D32B3FB0050AF18 /* CategoriesPrevHierarchy.swift in Sources */,
+				954895481D65C2A7007DCB36 /* ProductViewCell.swift in Sources */,
 				95673F1B1D32A2A70050AF18 /* OpenFoodFacts.xcdatamodeld in Sources */,
 				95673FCB1D32B3FB0050AF18 /* IngredientsFr.swift in Sources */,
 				95673FC01D32B3FB0050AF18 /* EditorsTags.swift in Sources */,
 				95673FC91D32B3FB0050AF18 /* Ingredients.swift in Sources */,
 				95673FDA1D32B3FB0050AF18 /* LanguagesTags.swift in Sources */,
+				9548954B1D65C4B4007DCB36 /* ViewController.swift in Sources */,
 				95673FE11D32B3FB0050AF18 /* Nutrition.swift in Sources */,
 				95673FC21D32B3FB0050AF18 /* EntryDatesTags.swift in Sources */,
 				95673FF11D32B3FB0050AF18 /* TracesHierarchy.swift in Sources */,
@@ -680,6 +747,7 @@
 				95673FB81D32B3FB0050AF18 /* CodesTags.swift in Sources */,
 				95673FE81D32B3FB0050AF18 /* PnnsGroups1Tags.swift in Sources */,
 				95673FDC1D32B3FB0050AF18 /* LastImageDatesTags.swift in Sources */,
+				954895441D65BFCE007DCB36 /* ProductViewModel.swift in Sources */,
 				95673FCE1D32B3FB0050AF18 /* IngredientsNTags.swift in Sources */,
 				95673FC11D32B3FB0050AF18 /* EmbCodesTags.swift in Sources */,
 				95673FAC1D32B3FB0050AF18 /* AdditivesTags.swift in Sources */,
@@ -711,7 +779,7 @@
 				95673FEA1D32B3FB0050AF18 /* Products.swift in Sources */,
 				95673FB11D32B3FB0050AF18 /* CategoriesHierarchy.swift in Sources */,
 				95673FE01D32B3FB0050AF18 /* Nutriments.swift in Sources */,
-				95D93D461D358BDE0002309A /* OpenFoodFactsService.swift in Sources */,
+				95D93D461D358BDE0002309A /* OpenFoodFactsProvider.swift in Sources */,
 				95673FE21D32B3FB0050AF18 /* NutritionFr.swift in Sources */,
 				95673FB71D32B3FB0050AF18 /* CitiesTags.swift in Sources */,
 				95673FE51D32B3FB0050AF18 /* PackagingTags.swift in Sources */,
@@ -726,7 +794,6 @@
 				95673FD21D32B3FB0050AF18 /* LabelsDebugTags.swift in Sources */,
 				95673FB01D32B3FB0050AF18 /* CategoriesDebugTags.swift in Sources */,
 				95673FB41D32B3FB0050AF18 /* CategoriesTags.swift in Sources */,
-				95673F151D32A2A70050AF18 /* ViewController.swift in Sources */,
 				95673FDE1D32B3FB0050AF18 /* NutrientLevels.swift in Sources */,
 				95673FD41D32B3FB0050AF18 /* LabelsPrevHierarchy.swift in Sources */,
 				95673FBB1D32B3FB0050AF18 /* CountriesHierarchy.swift in Sources */,
@@ -736,6 +803,7 @@
 				95673FDB1D32B3FB0050AF18 /* LastEditDatesTags.swift in Sources */,
 				95673FD61D32B3FB0050AF18 /* LabelsTags.swift in Sources */,
 				95673F131D32A2A70050AF18 /* AppDelegate.swift in Sources */,
+				954895421D65BEE3007DCB36 /* SearchViewModel.swift in Sources */,
 				95673FD01D32B3FB0050AF18 /* IngredientsThatMayBeFromPalmOilTags.swift in Sources */,
 				95673FC31D32B3FB0050AF18 /* Front.swift in Sources */,
 				95673FC51D32B3FB0050AF18 /* Full.swift in Sources */,
