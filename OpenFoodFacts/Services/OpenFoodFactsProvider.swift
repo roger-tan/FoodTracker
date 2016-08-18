@@ -10,14 +10,14 @@ import Foundation
 import Moya
 
 
-let openFoodFactsProvider = MoyaProvider<OpenFoodFactsService>(plugins: [NetworkLoggerPlugin(verbose: true, responseDataFormatter: JSONResponseDataFormatter)], endpointClosure: endpointClosure)
+let openFoodFactsProvider = MoyaProvider<OpenFoodFactsProvider>(plugins: [NetworkLoggerPlugin(verbose: true, responseDataFormatter: JSONResponseDataFormatter)], endpointClosure: endpointClosure)
 
 
-enum OpenFoodFactsService {
+enum OpenFoodFactsProvider {
     case Search(searchTerms: String)
 }
 
-extension OpenFoodFactsService: TargetType {
+extension OpenFoodFactsProvider: TargetType {
     
     var baseURL: NSURL { return NSURL(string: "http://world.openfoodfacts.org")! }
 
@@ -86,8 +86,8 @@ private func url(route: TargetType) -> String {
 /**
  * This will be use to be sure that we send a json parameters to Send
  */
-private var endpointClosure = { (target: OpenFoodFactsService) -> Endpoint<OpenFoodFactsService> in
-    let endpoint: Endpoint<OpenFoodFactsService> = Endpoint<OpenFoodFactsService>(
+private var endpointClosure = { (target: OpenFoodFactsProvider) -> Endpoint<OpenFoodFactsProvider> in
+    let endpoint: Endpoint<OpenFoodFactsProvider> = Endpoint<OpenFoodFactsProvider>(
         URL: url(target),
         sampleResponseClosure: {.NetworkResponse(200, target.sampleData)},
         method: target.method,
