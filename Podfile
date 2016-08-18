@@ -8,6 +8,7 @@ target 'OpenFoodFacts' do
   # Pods for OpenFoodFacts
   pod 'SwiftyJSON'
   pod 'Moya'
+  pod 'SVProgressHUD'
 #  pod 'Moya/RxSwift'
 #  pod 'Moya/ReactiveCocoa'
 
