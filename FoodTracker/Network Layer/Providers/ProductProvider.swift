@@ -10,21 +10,21 @@ import Foundation
 import Moya
 
 struct ProductProvider: ProductProviderProtocol {
-    
+
     // MARK: - Dependencies
-    
+
     static var provider: MoyaProvider = Providers.OpenFoodFacts
-    
+
     // MARK: - Methods
-    
+
     static func product(id: String, onCompletion: @escaping ProductCompletion) {
-        
+
         _ = provider.request(.product(id: id), completion: { (result) in
             switch result {
             case let .success(response):
                 do {
                     let productResponse: ProductResponse = try response.mapResource()
-                    
+
                     onCompletion(productResponse.product, nil)
                 } catch {
                     onCompletion(nil, error)
@@ -35,6 +35,6 @@ struct ProductProvider: ProductProviderProtocol {
                 break
             }
         })
-        
+
     }
 }

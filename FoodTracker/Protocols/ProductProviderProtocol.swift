@@ -11,7 +11,7 @@ import Foundation
 protocol ProductProviderProtocol {
 
     typealias ProductCompletion = (_ product: Product?, _ error: Error?) -> Void
-    
+
     static func product(id: String, onCompletion: @escaping ProductCompletion)
-    
+
 }

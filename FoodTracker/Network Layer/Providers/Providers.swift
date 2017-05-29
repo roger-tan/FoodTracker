@@ -10,9 +10,9 @@ import Foundation
 import Moya
 
 struct Providers {
-    
+
     private static let networkActivityIndicator = NetworkActivityIndicatorPlugin()
-    
+
     static let OpenFoodFacts = MoyaProvider<OpenFoodFactsApi>(plugins: [networkActivityIndicator])
-    
+
 }

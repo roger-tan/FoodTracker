@@ -12,17 +12,16 @@ class ProductDetailViewController: UIViewController {
 
     // MARK: - Stored Properties
     var viewModel: ProductDetailViewModel!
-    
+
     // MARK: - IBOutlets
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var brandLabel: UILabel!
     @IBOutlet var countryLabel: UILabel!
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         bindViewModel()
     }
 
@@ -36,14 +35,13 @@ class ProductDetailViewController: UIViewController {
 
 }
 
-
 // For testing purpose
 extension Product {
-    
+
     static var fake: Product {
         let json = FileHelper.loadDataFromJSON(for: "ProductResponse")
         let productResponse: ProductResponse = try! ProductResponse(dictionary: json!)
         return productResponse.product
     }
-    
+
 }
