@@ -1,6 +1,6 @@
 language: swift
 xcode_project: FoodTracker.xcodeproj
-xcode_scheme: FoodTracker
+xcode_scheme: FoodTrackerTests
 osx_image: xcode8.3
 xcode_sdk: iphonesimulator10.3
 env:
