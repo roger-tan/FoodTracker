@@ -1,0 +1,760 @@
+{
+    "status_verbose": "product found",
+    "code": "7613035144958",
+    "status": 1,
+    "product": {
+        "image_thumb_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/front_fr.8.100.jpg",
+        "scans_n": 1,
+        "ingredients_text_with_allergens_fr": "Poitrine de porc, conservateurs : nitrite de sodium - lactate de potassium - acétate de sodium, sel, dextrose de maïs, antioxydant : isoascorbate de sodium; fumée.",
+        "categories_prev_hierarchy": [
+                                      "en:meats",
+                                      "en:prepared-meats",
+                                      "fr:charcuteries-diverses",
+                                      "en:smoked-lardons",
+                                      "fr:lardons"
+                                      ],
+        "serving_quantity": 50,
+        "lang": "fr",
+        "image_nutrition_small_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/nutrition_fr.10.200.jpg",
+        "additives_n": 4,
+        "unknown_nutrients_tags": [
+        
+        ],
+        "labels_prev_hierarchy": [
+                                  "fr:viande-francaise",
+                                  "fr:viande-porcine-francaise"
+                                  ],
+        "ingredients_text_debug": "Poitrine de porc, conservateurs :  nitrite de sodium - lactate de potassium - acétate de sodium, sel, dextrose de maïs, antioxydant :  isoascorbate de sodium; fumée.",
+        "purchase_places_tags": [
+                                 "noyelles-godault",
+                                 "france"
+                                 ],
+        "ingredients_from_palm_oil_n": 0,
+        "link": "",
+        "image_front_thumb_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/front_fr.8.100.jpg",
+        "_keywords": [
+                      "francai",
+                      "n-2",
+                      "superieure",
+                      "herta",
+                      "decoupe",
+                      "fume",
+                      "france",
+                      "qualite",
+                      "de",
+                      "charcutier",
+                      "lardon",
+                      "traditionnel",
+                      "porc",
+                      "le",
+                      "fumage"
+                      ],
+        "emb_codes_orig": "FR 62.767.005 CE",
+        "categories_tags": [
+                            "en:meats",
+                            "en:prepared-meats",
+                            "fr:charcuteries-diverses",
+                            "fr:lardons",
+                            "en:smoked-lardons"
+                            ],
+        "labels_tags": [
+                        "fr:viande-francaise",
+                        "fr:viande-porcine-francaise"
+                        ],
+        "ingredients_ids_debug": [
+                                  "poitrine-de-porc",
+                                  "conservateurs",
+                                  "nitrite-de-sodium",
+                                  "lactate-de-potassium",
+                                  "acetate-de-sodium",
+                                  "sel",
+                                  "dextrose-de-mais",
+                                  "antioxydant",
+                                  "isoascorbate-de-sodium",
+                                  "fumee"
+                                  ],
+        "nutrition_grade_fr": "e",
+        "additives": " [ poitrine-de-porc -> fr:poitrine-de-porc  ]  [ poitrine-de -> fr:poitrine-de  ]  [ poitrine -> fr:poitrine  ]  [ conservateurs -> fr:conservateurs  ]  [ nitrite-de-sodium -> en:e250  -> exists  -- ok  ]  [ lactate-de-potassium -> en:e326  -> exists  -- ok  ]  [ acetate-de-sodium -> en:e262i  -> exists  -- ok  ]  [ sel -> fr:sel  ]  [ dextrose-de-mais -> fr:dextrose-de-mais  ]  [ dextrose-de -> fr:dextrose-de  ]  [ dextrose -> fr:dextrose  ]  [ antioxydant -> fr:antioxydant  ]  [ isoascorbate-de-sodium -> en:e316  -> exists  -- ok  ]  [ fumee -> fr:fumee  ] ",
+        "additives_tags": [
+                           "en:e250",
+                           "en:e262",
+                           "en:e262i",
+                           "en:e316",
+                           "en:e326"
+                           ],
+        "countries_hierarchy": [
+                                "en:france"
+                                ],
+        "ingredients_that_may_be_from_palm_oil_n": 0,
+        "no_nutrition_data": "",
+        "additives_prev_original_tags": [
+                                         "en:e250",
+                                         "en:e326",
+                                         "en:e262",
+                                         "en:e316"
+                                         ],
+        "additives_debug_tags": [
+                                 "en-e262i-added"
+                                 ],
+        "image_front_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/front_fr.8.400.jpg",
+        "unique_scans_n": 1,
+        "ingredients_that_may_be_from_palm_oil_tags": [
+        
+        ],
+        "additives_old_n": 4,
+        "pnns_groups_2": "Processed meat",
+        "checkers_tags": [
+        
+        ],
+        "languages_tags": [
+                           "en:french",
+                           "en:1"
+                           ],
+        "languages_hierarchy": [
+                                "en:french"
+                                ],
+        "lc": "fr",
+        "max_imgid": "3",
+        "allergens_tags": [
+        
+        ],
+        "states": "en:to-be-checked, en:complete, en:nutrition-facts-completed, en:ingredients-completed, en:expiration-date-completed, en:packaging-code-completed, en:characteristics-completed, en:categories-completed, en:brands-completed, en:packaging-completed, en:quantity-completed, en:product-name-completed, en:photos-validated, en:photos-uploaded",
+        "last_modified_by": "date-limite-app",
+        "purchase_places": "Noyelles-Godault,France",
+        "last_image_t": 1452410116,
+        "ingredients": [
+                        {
+                        "id": "poitrine-de-porc",
+                        "rank": 1,
+                        "text": "Poitrine de porc"
+                        },
+                        {
+                        "id": "conservateurs",
+                        "rank": 2,
+                        "text": "conservateurs"
+                        },
+                        {
+                        "rank": 3,
+                        "text": "nitrite de sodium",
+                        "id": "nitrite-de-sodium"
+                        },
+                        {
+                        "text": "lactate de potassium",
+                        "rank": 4,
+                        "id": "lactate-de-potassium"
+                        },
+                        {
+                        "id": "acetate-de-sodium",
+                        "rank": 5,
+                        "text": "acétate de sodium"
+                        },
+                        {
+                        "id": "sel",
+                        "text": "sel",
+                        "rank": 6
+                        },
+                        {
+                        "id": "dextrose-de-mais",
+                        "text": "dextrose de maïs",
+                        "rank": 7
+                        },
+                        {
+                        "id": "antioxydant",
+                        "rank": 8,
+                        "text": "antioxydant"
+                        },
+                        {
+                        "id": "isoascorbate-de-sodium",
+                        "text": "isoascorbate de sodium"
+                        },
+                        {
+                        "id": "fumee",
+                        "text": "fumée."
+                        }
+                        ],
+        "nutrient_levels": {
+            "sugars": "low",
+            "salt": "high",
+            "fat": "high",
+            "saturated-fat": "high"
+        },
+        "additives_prev_n": 4,
+        "product_name_fr": "Lardons Charcutier fumage traditionnel découpe n°2",
+        "last_edit_dates_tags": [
+                                 "2017-05-29",
+                                 "2017-05",
+                                 "2017"
+                                 ],
+        "categories_hierarchy": [
+                                 "en:meats",
+                                 "en:prepared-meats",
+                                 "fr:charcuteries-diverses",
+                                 "fr:lardons",
+                                 "en:smoked-lardons"
+                                 ],
+        "categories_prev_tags": [
+                                 "en:meats",
+                                 "en:prepared-meats",
+                                 "fr:charcuteries-diverses",
+                                 "en:smoked-lardons",
+                                 "fr:lardons"
+                                 ],
+        "countries": "France",
+        "image_ingredients_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/ingredients_fr.9.400.jpg",
+        "editors": [
+                    "date-limite-app",
+                    "tacite"
+                    ],
+        "creator": "date-limite-app",
+        "last_modified_t": 1496058638,
+        "allergens": "",
+        "completed_t": 1446132697,
+        "fruits-vegetables-nuts_100g_estimate": 0,
+        "image_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/front_fr.8.400.jpg",
+        "entry_dates_tags": [
+                             "2015-10-22",
+                             "2015-10",
+                             "2015"
+                             ],
+        "editors_tags": [
+                         "date-limite-app",
+                         "tacite",
+                         "tacite-mass-editor"
+                         ],
+        "nutrition_score_debug": " -- energy 3 + sat-fat 9 + fr-sat-fat-for-fats 5 + sugars 0 + sodium 9 - fruits 0% 0 - fiber 0 - proteins 5 -- fsa 21 -- fr 21",
+        "complete": 1,
+        "emb_codes": "FR 62.767.005 EC",
+        "brands": "Herta",
+        "categories": "Lardons,Lardons fumés",
+        "ingredients_from_or_that_may_be_from_palm_oil_n": 0,
+        "additives_old_tags": [
+                               "en:e250",
+                               "en:e326",
+                               "en:e262",
+                               "en:e316"
+                               ],
+        "product_name": "Lardons Charcutier fumage traditionnel découpe n°2",
+        "ingredients_n": "10",
+        "ingredients_from_palm_oil_tags": [
+        
+        ],
+        "categories_debug_tags": [
+        
+        ],
+        "images": {
+            "3": {
+                "uploaded_t": "1452410116",
+                "sizes": {
+                    "full": {
+                        "h": 400,
+                        "w": 332
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 83
+                    },
+                    "400": {
+                        "w": 332,
+                        "h": 400
+                    }
+                },
+                "uploader": "date-limite-app"
+            },
+            "2": {
+                "sizes": {
+                    "100": {
+                        "w": 56,
+                        "h": 100
+                    },
+                    "full": {
+                        "w": 2000,
+                        "h": 3555
+                    },
+                    "400": {
+                        "h": 400,
+                        "w": 225
+                    }
+                },
+                "uploaded_t": "1446126089",
+                "uploader": "tacite"
+            },
+            "ingredients": {
+                "white_magic": "false",
+                "sizes": {
+                    "100": {
+                        "w": 100,
+                        "h": 15
+                    },
+                    "full": {
+                        "w": 1929,
+                        "h": 284
+                    },
+                    "400": {
+                        "w": 400,
+                        "h": 59
+                    },
+                    "200": {
+                        "w": 200,
+                        "h": 29
+                    }
+                },
+                "rev": "9",
+                "imgid": "1",
+                "geometry": "1929x284-737-1496",
+                "normalize": "true"
+            },
+            "front_fr": {
+                "white_magic": "false",
+                "normalize": "true",
+                "imgid": "2",
+                "geometry": "1964x2364-13-576",
+                "rev": "8",
+                "sizes": {
+                    "200": {
+                        "h": 200,
+                        "w": 166
+                    },
+                    "400": {
+                        "w": 332,
+                        "h": 400
+                    },
+                    "full": {
+                        "h": 2364,
+                        "w": 1964
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 83
+                    }
+                }
+            },
+            "nutrition_fr": {
+                "white_magic": "false",
+                "geometry": "2053x258-1030-1238",
+                "normalize": "true",
+                "imgid": "1",
+                "rev": "10",
+                "sizes": {
+                    "200": {
+                        "h": 25,
+                        "w": 200
+                    },
+                    "400": {
+                        "w": 400,
+                        "h": 50
+                    },
+                    "100": {
+                        "w": 100,
+                        "h": 13
+                    },
+                    "full": {
+                        "h": 258,
+                        "w": 2053
+                    }
+                }
+            },
+            "ingredients_fr": {
+                "white_magic": "false",
+                "sizes": {
+                    "100": {
+                        "w": 100,
+                        "h": 15
+                    },
+                    "full": {
+                        "w": 1929,
+                        "h": 284
+                    },
+                    "400": {
+                        "w": 400,
+                        "h": 59
+                    },
+                    "200": {
+                        "w": 200,
+                        "h": 29
+                    }
+                },
+                "rev": "9",
+                "imgid": "1",
+                "geometry": "1929x284-737-1496",
+                "normalize": "true"
+            },
+            "nutrition": {
+                "white_magic": "false",
+                "geometry": "2053x258-1030-1238",
+                "normalize": "true",
+                "imgid": "1",
+                "rev": "10",
+                "sizes": {
+                    "200": {
+                        "h": 25,
+                        "w": 200
+                    },
+                    "400": {
+                        "w": 400,
+                        "h": 50
+                    },
+                    "100": {
+                        "w": 100,
+                        "h": 13
+                    },
+                    "full": {
+                        "h": 258,
+                        "w": 2053
+                    }
+                }
+            },
+            "front": {
+                "white_magic": "false",
+                "normalize": "true",
+                "imgid": "2",
+                "geometry": "1964x2364-13-576",
+                "rev": "8",
+                "sizes": {
+                    "200": {
+                        "h": 200,
+                        "w": 166
+                    },
+                    "400": {
+                        "w": 332,
+                        "h": 400
+                    },
+                    "full": {
+                        "h": 2364,
+                        "w": 1964
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 83
+                    }
+                }
+            },
+            "1": {
+                "uploaded_t": "1446126083",
+                "sizes": {
+                    "400": {
+                        "w": 225,
+                        "h": 400
+                    },
+                    "100": {
+                        "h": 100,
+                        "w": 56
+                    },
+                    "full": {
+                        "h": 3555,
+                        "w": 2000
+                    }
+                },
+                "uploader": "tacite"
+            }
+        },
+        "update_key": "additives20170509",
+        "manufacturing_places_tags": [
+                                      "france"
+                                      ],
+        "generic_name_fr": "Lardons fumés de qualité supérieure",
+        "image_ingredients_small_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/ingredients_fr.9.200.jpg",
+        "code": "7613035144958",
+        "informers_tags": [
+                           "date-limite-app",
+                           "tacite"
+                           ],
+        "states_hierarchy": [
+                             "en:to-be-checked",
+                             "en:complete",
+                             "en:nutrition-facts-completed",
+                             "en:ingredients-completed",
+                             "en:expiration-date-completed",
+                             "en:packaging-code-completed",
+                             "en:characteristics-completed",
+                             "en:categories-completed",
+                             "en:brands-completed",
+                             "en:packaging-completed",
+                             "en:quantity-completed",
+                             "en:product-name-completed",
+                             "en:photos-validated",
+                             "en:photos-uploaded"
+                             ],
+        "additives_original_tags": [
+                                    "en:e250",
+                                    "en:e326",
+                                    "en:e262i",
+                                    "en:e316"
+                                    ],
+        "pnns_groups_1_tags": [
+                               "fish-meat-eggs"
+                               ],
+        "nutrition_data_per": "100g",
+        "rev": 15,
+        "allergens_hierarchy": [
+        
+        ],
+        "image_small_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/front_fr.8.200.jpg",
+        "languages": {
+            "en:french": 6
+        },
+        "packaging": "barquette,plastique",
+        "traces": "",
+        "origins": "France",
+        "selected_images": {
+            "ingredients": {
+                "display": {
+                    "fr": "https://static.openfoodfacts.org/images/products/761/303/514/4958/ingredients_fr.9.400.jpg"
+                },
+                "thumb": {
+                    "fr": "https://static.openfoodfacts.org/images/products/761/303/514/4958/ingredients_fr.9.100.jpg"
+                },
+                "small": {
+                    "fr": "https://static.openfoodfacts.org/images/products/761/303/514/4958/ingredients_fr.9.200.jpg"
+                }
+            },
+            "front": {
+                "small": {
+                    "fr": "https://static.openfoodfacts.org/images/products/761/303/514/4958/front_fr.8.200.jpg"
+                },
+                "display": {
+                    "fr": "https://static.openfoodfacts.org/images/products/761/303/514/4958/front_fr.8.400.jpg"
+                },
+                "thumb": {
+                    "fr": "https://static.openfoodfacts.org/images/products/761/303/514/4958/front_fr.8.100.jpg"
+                }
+            },
+            "nutrition": {
+                "thumb": {
+                    "fr": "https://static.openfoodfacts.org/images/products/761/303/514/4958/nutrition_fr.10.100.jpg"
+                },
+                "display": {
+                    "fr": "https://static.openfoodfacts.org/images/products/761/303/514/4958/nutrition_fr.10.400.jpg"
+                },
+                "small": {
+                    "fr": "https://static.openfoodfacts.org/images/products/761/303/514/4958/nutrition_fr.10.200.jpg"
+                }
+            }
+        },
+        "ingredients_n_tags": [
+                               "10",
+                               "1-10"
+                               ],
+        "traces_hierarchy": [
+        
+        ],
+        "correctors_tags": [
+                            "tacite",
+                            "date-limite-app",
+                            "tacite-mass-editor"
+                            ],
+        "nutrient_levels_tags": [
+                                 "en:fat-in-high-quantity",
+                                 "en:saturated-fat-in-high-quantity",
+                                 "en:sugars-in-low-quantity",
+                                 "en:salt-in-high-quantity"
+                                 ],
+        "image_front_small_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/front_fr.8.200.jpg",
+        "image_ingredients_thumb_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/ingredients_fr.9.100.jpg",
+        "languages_codes": {
+            "fr": 6
+        },
+        "labels_debug_tags": [
+        
+        ],
+        "nutrition_grades": "e",
+        "additives_prev": " [ poitrine-de-porc -> fr:poitrine-de-porc  ]  [ poitrine-de -> fr:poitrine-de  ]  [ poitrine -> fr:poitrine  ]  [ conservateurs -> fr:conservateurs  ]  [ nitrite-de-sodium -> en:e250  -> exists  -- ok  ]  [ lactate-de-potassium -> en:e326  -> exists  -- ok  ]  [ acetate-de-sodium -> en:e262  -> exists  -- ok  ]  [ sel -> fr:sel  ]  [ dextrose-de-mais -> fr:dextrose-de-mais  ]  [ dextrose-de -> fr:dextrose-de  ]  [ dextrose -> fr:dextrose  ]  [ antioxydant -> fr:antioxydant  ]  [ isoascorbate-de-sodium -> en:e316  -> exists  -- ok  ]  [ fumee -> fr:fumee  ] ",
+        "labels_prev_tags": [
+                             "fr:viande-francaise",
+                             "fr:viande-porcine-francaise"
+                             ],
+        "packaging_debug_tags": [
+        
+        ],
+        "brands_tags": [
+                        "herta"
+                        ],
+        "new_additives_n": 4,
+        "_id": "7613035144958",
+        "last_editor": "date-limite-app",
+        "emb_codes_20141016": "FR 62.767.005 CE",
+        "labels": "Le Porc Français",
+        "states_tags": [
+                        "en:to-be-checked",
+                        "en:complete",
+                        "en:nutrition-facts-completed",
+                        "en:ingredients-completed",
+                        "en:expiration-date-completed",
+                        "en:packaging-code-completed",
+                        "en:characteristics-completed",
+                        "en:categories-completed",
+                        "en:brands-completed",
+                        "en:packaging-completed",
+                        "en:quantity-completed",
+                        "en:product-name-completed",
+                        "en:photos-validated",
+                        "en:photos-uploaded"
+                        ],
+        "photographers_tags": [
+                               "tacite",
+                               "date-limite-app"
+                               ],
+        "labels_hierarchy": [
+                             "fr:viande-francaise",
+                             "fr:viande-porcine-francaise"
+                             ],
+        "stores_tags": [
+                        "auchan"
+                        ],
+        "interface_version_created": "20130323.jqm",
+        "ingredients_text_with_allergens": "Poitrine de porc, conservateurs : nitrite de sodium - lactate de potassium - acétate de sodium, sel, dextrose de maïs, antioxydant : isoascorbate de sodium; fumée.",
+        "serving_size": "50 g",
+        "interface_version_modified": "20150316.jqm2",
+        "cities_tags": [
+                        "saint-pol-sur-ternoise-pas-de-calais-france"
+                        ],
+        "expiration_date": "01/12/2015",
+        "ingredients_tags": [
+                             "poitrine-de-porc",
+                             "conservateurs",
+                             "nitrite-de-sodium",
+                             "lactate-de-potassium",
+                             "acetate-de-sodium",
+                             "sel",
+                             "dextrose-de-mais",
+                             "antioxydant",
+                             "isoascorbate-de-sodium",
+                             "fumee"
+                             ],
+        "origins_tags": [
+                         "france"
+                         ],
+        "last_image_dates_tags": [
+                                  "2016-01-10",
+                                  "2016-01",
+                                  "2016"
+                                  ],
+        "generic_name": "Lardons fumés de qualité supérieure",
+        "packaging_tags": [
+                           "barquette",
+                           "plastique"
+                           ],
+        "quantity": "150 g",
+        "ingredients_text_fr": "Poitrine de porc, conservateurs : nitrite de sodium - lactate de potassium - acétate de sodium, sel, dextrose de maïs, antioxydant : isoascorbate de sodium; fumée.",
+        "image_nutrition_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/nutrition_fr.10.400.jpg",
+        "nutrition_grades_tags": [
+                                  "e"
+                                  ],
+        "countries_tags": [
+                           "en:france"
+                           ],
+        "emb_codes_tags": [
+                           "fr-62-767-005-ec"
+                           ],
+        "sortkey": 1496058638,
+        "ingredients_debug": [
+                              "Poitrine de porc",
+                              ",",
+                              " conservateurs ",
+                              ":",
+                              "  nitrite de sodium",
+                              " - ",
+                              " - ",
+                              "lactate de potassium",
+                              " - ",
+                              " - ",
+                              "acétate de sodium",
+                              ",",
+                              " sel",
+                              ",",
+                              " dextrose de maïs",
+                              ",",
+                              " antioxydant ",
+                              ":",
+                              "  isoascorbate de sodium",
+                              ";",
+                              " fumée."
+                              ],
+        "pnns_groups_1": "Fish Meat Eggs",
+        "ingredients_text": "Poitrine de porc, conservateurs : nitrite de sodium - lactate de potassium - acétate de sodium, sel, dextrose de maïs, antioxydant : isoascorbate de sodium; fumée.",
+        "codes_tags": [
+                       "code-13",
+                       "7613035144958",
+                       "761303514495x",
+                       "76130351449xx",
+                       "7613035144xxx",
+                       "761303514xxxx",
+                       "76130351xxxxx",
+                       "7613035xxxxxx",
+                       "761303xxxxxxx",
+                       "76130xxxxxxxx",
+                       "7613xxxxxxxxx",
+                       "761xxxxxxxxxx",
+                       "76xxxxxxxxxxx",
+                       "7xxxxxxxxxxxx"
+                       ],
+        "stores": "Auchan",
+        "id": "7613035144958",
+        "additives_prev_tags": [
+                                "en:e250",
+                                "en:e262",
+                                "en:e316",
+                                "en:e326"
+                                ],
+        "nutriments": {
+            "saturated-fat": "9.8",
+            "proteins_100g": 15.5,
+            "sugars_value": "0.4",
+            "nutrition-score-fr_100g": "21",
+            "salt_unit": "g",
+            "energy": "1199",
+            "energy_serving": "600",
+            "fiber_value": "0.5",
+            "carbohydrates_100g": 0.4,
+            "fiber": "0.5",
+            "saturated-fat_unit": "g",
+            "sodium_value": "0.8661417322834646",
+            "fat": "25",
+            "carbohydrates_serving": 0.2,
+            "carbohydrates_value": "0.4",
+            "proteins": "15.5",
+            "salt_100g": 2.2,
+            "nutrition-score-uk_100g": "21",
+            "sodium": "0.866141732283465",
+            "carbohydrates": "0.4",
+            "fiber_serving": 0.25,
+            "nutrition-score-fr": "21",
+            "proteins_serving": 7.75,
+            "sodium_unit": "g",
+            "fiber_100g": 0.5,
+            "fat_unit": "g",
+            "fiber_modifier": "<",
+            "saturated-fat_100g": 9.8,
+            "sugars_serving": 0.2,
+            "energy_unit": "kJ",
+            "sodium_100g": 0.866141732283465,
+            "salt_value": "2.2",
+            "sugars_100g": 0.4,
+            "sugars_unit": "g",
+            "fiber_unit": "g",
+            "carbohydrates_unit": "g",
+            "proteins_unit": "g",
+            "proteins_value": "15.5",
+            "salt": 2.2,
+            "salt_serving": 1.1,
+            "energy_100g": "1199",
+            "fat_serving": 12.5,
+            "sodium_serving": 0.433,
+            "saturated-fat_value": "9.8",
+            "nutrition-score-uk": "21",
+            "energy_value": "1199",
+            "sugars": "0.4",
+            "saturated-fat_serving": 4.9,
+            "fat_value": "25",
+            "fat_100g": "25"
+        },
+        "traces_tags": [
+        
+        ],
+        "manufacturing_places": "France",
+        "created_t": 1445516213,
+        "image_nutrition_thumb_url": "https://static.openfoodfacts.org/images/products/761/303/514/4958/nutrition_fr.10.100.jpg",
+        "pnns_groups_2_tags": [
+                               "processed-meat"
+                               ]
+    }
+}
