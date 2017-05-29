@@ -6,7 +6,6 @@ xcode_sdk: iphonesimulator10.3
 env:
   global:
     - FRAMEWORK_NAME=FoodTracker
-    - DANGER_GITHUB_API_TOKEN=964fa8ae0f9b31c4e2b45829694fff109cf53c18
 before_install:
   - brew update
   - brew outdated carthage || brew upgrade carthage
