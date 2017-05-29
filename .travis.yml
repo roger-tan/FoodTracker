@@ -9,6 +9,8 @@ cache:
 env:
   global:
     - FRAMEWORK_NAME=FoodTracker
+  matrix:
+    - DESTINATION="OS=10.3,name=iPhone 6s" SCHEME=$PROJECT SDK=iphonesimulator TEST=test
 before_install:
   - gem install bundler
   - bundle install
