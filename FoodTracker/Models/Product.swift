@@ -34,27 +34,27 @@ extension Product {
         guard let id = dictionnary["_id"] as? String else {
             throw SerializationError.missing("id")
         }
-        
+
         guard let brand = dictionnary["brands"] as? String else {
             throw SerializationError.missing("brand")
         }
-        
+
         guard let name = dictionnary["generic_name"] as? String else {
             throw SerializationError.missing("name")
         }
-        
+
         guard let ingredients = dictionnary["ingredients_text"] as? String else {
             throw SerializationError.missing("ingredients")
         }
-        
+
         guard let code = dictionnary["code"] as? String else {
             throw SerializationError.missing("code")
         }
-        
+
         guard let countries = dictionnary["countries"] as? String else {
             throw SerializationError.missing("countries")
         }
-        
+
         self.id = id
         self.brand = brand
         self.name = name
@@ -62,5 +62,5 @@ extension Product {
         self.code = code
         self.countries = countries
     }
-    
+
 }

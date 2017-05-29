@@ -1,1 +1,1 @@
-# OpenFoodFacts-iOS
+# FoodTracker iOS

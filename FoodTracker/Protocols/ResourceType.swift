@@ -11,7 +11,7 @@ import Foundation
 typealias JSONDictionary = [String: Any]
 
 protocol ResourceType {
-    
+
     init(dictionary: JSONDictionary) throws
-    
+
 }
