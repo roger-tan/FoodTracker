@@ -8,6 +8,7 @@ env:
     - FRAMEWORK_NAME=FoodTracker
 before_install:
   - gem install bundler
+  - bundle install
   - brew update
   - brew outdated carthage || brew upgrade carthage
 before_script:
