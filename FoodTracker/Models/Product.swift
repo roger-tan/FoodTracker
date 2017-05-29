@@ -17,7 +17,7 @@ enum SerializationError: Error {
 
 struct Product {
 
-    let id: Int
+    let id: String
     let brand: String
     let name: String
     let ingredients: String
@@ -31,7 +31,7 @@ struct Product {
 extension Product {
 
     init(dictionnary: [String: Any]) throws {
-        guard let id = dictionnary["id"] as? Int else {
+        guard let id = dictionnary["_id"] as? String else {
             throw SerializationError.missing("id")
         }
         
